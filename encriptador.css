@@ -1,0 +1,103 @@
+.logo{
+    width: 40px;
+    border: 10px solid rgb(23, 16, 128);
+    padding: 20px;
+    height: 30px;
+
+}
+
+.primerTitulo{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-style: oblique;
+    color: rgb(25, 233, 205);
+}
+
+body{
+    background-image: url(img/pandasecurity-encriptar.jpg);
+   
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+
+main{
+    display: flex;
+    margin-left: 250px;
+    margin-bottom: 80px;
+}
+
+.input-text{
+    position: relative;
+    width: 330px;
+    height: 300px;
+    margin-top: 100px;
+    
+    
+}
+
+.encriptar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #110f0f;
+    background-color: #0cebdf;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.desencriptar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #110f0f;
+    background-color: #0cebdf;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    margin-left:60px ;
+}
+
+.copiar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #110f0f;
+    background-color: #0cebdf;
+    border-radius: 6px;
+    border: 2px solid #fff; 
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.mensaje{
+    position: relative;
+    width: 330px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 90px;
+    background-image: url(img/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+}
+
+.footer{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-style:italic;
+    color: rgb(248, 248, 240);
+}
+
+
+

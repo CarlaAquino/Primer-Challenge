@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de encriptado y desencriptado</title>
+    <link rel="stylesheet" href="encriptador.css">
+
+</head>
+<!-- `La letra "e" es convertida para "enter"`
+         `La letra "i" es convertida para "imes"`
+         `La letra "a" es convertida para "ai"`
+         `La letra "o" es convertida para "ober"`
+         `La letra "u" es convertida para "ufat"` -->
+         <!-- Requisitos: debe funcionar solo con mayusculas, sin acentos y carecteres -->
+
+<body>
+  
+    <header>
+        <img class="logo" src="img/Vector.png">
+        
+        <h1 class="primerTitulo">Sistema de encriptado y desencriptado de texto</h1>
+    </header>
+       
+   <!-- Image and text -->
+    <main>
+
+      <section>
+        <textarea class="input-text" cols="40" rows="6" placeholder="Ingrese texto aquí"></textarea>
+        <div class="botones">
+          <a class="encriptar" onclick="btnEncriptar()">Encriptar</a>
+
+          <a class="desencriptar" onclick="btnDesencriptar()">Desencriptar</a>
+        </div>
+      </section>
+
+      <section>
+        <textarea class="mensaje" cols="20" rows="8"></textarea>
+        <div class="botones">
+           <a class="copiar" margin-rigth="auto" onclick="copiar()">Copiar</a>
+        </div> 
+      </section>
+
+    </main>
+   
+ 
+  
+   <!--Con script y scr le traemos al codigo js-->
+   <script src="encriptador.js"></script>
+
+  <footer>
+
+    <h2 type="text" text-align="center" color="write">Primer challenge de One Oracle, presentado por Aquino Carla L. año 2022</h2>
+  </footer>
+</body>
+</html>
